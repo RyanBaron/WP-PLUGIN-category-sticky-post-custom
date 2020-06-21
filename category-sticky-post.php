@@ -1,6 +1,6 @@
 <?php
 /**
- * Category Sticky Post
+ * Category Sticky Post Custom
  *
  * Mark a post to be placed at the top of a specified category archive. It's sticky posts specifically for categories.
  *
@@ -11,7 +11,7 @@
  * @copyright 2013 - 2016 Tom McFarlin
  *
  * @wordpress-plugin
- * Plugin Name: Category Sticky Post
+ * Plugin Name: Category Sticky Post Custom
  * Plugin URI: 	https://tommcfarlin.com/category-sticky-post/
  * Description: Mark a post to be placed at the top of a specified category archive. It's sticky posts specifically for categories.
  * Version:     2.10.1

@@ -1,7 +1,7 @@
 {
 	"name": "ryanbaron/wp-plugin-category-sticky-post-custom",
-	"version": "2.10.2",
-	"description": "A clone of the Category Sticky Post plugin along with some custom modifications to the plugin for project inclusion.",
+	"version": "2.10.3",
+	"description": "A clone of the Category Sticky Post plugin along with some custom modifications to the plugin for project inclusion...",
 	"type": "wordpress-plugin",
 	"authors": [
 		{

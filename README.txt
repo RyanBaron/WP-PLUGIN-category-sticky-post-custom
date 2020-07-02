@@ -1,4 +1,4 @@
-=== Category Sticky Post ===
+=== Category Sticky Post Custom ===
 Contributors: professionalthemes, philiparthurmoore
 Donate link: https://www.paypal.me/professionalthemes
 Tags: categories, post

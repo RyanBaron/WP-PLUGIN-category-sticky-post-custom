@@ -14,7 +14,7 @@
  * Plugin Name: Category Sticky Post Custom
  * Plugin URI: 	https://tommcfarlin.com/category-sticky-post/
  * Description: Mark a post to be placed at the top of a specified category archive. It's sticky posts specifically for categories.
- * Version:     2.10.1
+ * Version:     2.10.1.3
  * Author:      Tom McFarlin
  * Author URI:  https://tommcfarlin.com
  * Text Domain: category-sticky-post

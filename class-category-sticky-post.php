@@ -77,12 +77,12 @@ class Category_Sticky_Post {
 		add_action( 'wp_ajax_is_category_sticky_post', array( $this, 'is_category_sticky_post' ) );
 
 		// Filters for displaying the sticky category posts
-		add_filter( 'the_posts', array( $this, 'reorder_category_posts' ), 10, 2 );
+		// add_filter( 'the_posts', array( $this, 'reorder_category_posts' ), 10, 2 );
 		add_filter( 'post_class', array( $this, 'set_category_sticky_class' ) );
 
 		// Stylesheets
 		add_action( 'admin_enqueue_scripts', array( $this, 'add_admin_styles_and_scripts' ) );
-		add_action( 'wp_enqueue_scripts', array( $this, 'add_styles' ) );
+		// add_action( 'wp_enqueue_scripts', array( $this, 'add_styles' ) );
 
 	}
 
@@ -268,7 +268,6 @@ class Category_Sticky_Post {
     // We only care to do this for the first page of the archives
     if( $query->is_main_query() && is_archive() && 0 == get_query_var( 'paged' ) && '' != get_query_var( 'cat' ) ) {
       // ***Adding secondary featured posts before primary
-
       // Read the current category to find the sticky posts
       $category = get_category( get_query_var( 'cat' ) );
       $sticky_query_secondary = $this->get_sticky_feature_secondary_query( $category );
@@ -461,7 +460,6 @@ class Category_Sticky_Post {
 					)
 				)
 			);
-
 	}
 
 	/**
